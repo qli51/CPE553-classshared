@@ -1,0 +1,34 @@
+class Vehicle {};
+
+Car
+  speed (int), color (string)
+  payToll()
+Bus
+  speed (int), numpassengers (int)
+    payToll()
+Truck
+  speed(int), weight (double)
+  payToll()
+
+class Shape {
+public:
+  virtual void writeSTL(ostream& s) = 0;
+
+}
+
+Sphere
+  resx, resy (int)
+  radius (double)
+  void writeSTL(ostream& s);
+  
+Cylinder
+  resx (int)
+  radius, height (double)
+  writeSTL(ostream& s)
+
+Cube
+  sizex,sizey,sizez
+  writeSTL(ostream& s)
+
+
+
